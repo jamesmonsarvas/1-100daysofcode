@@ -1,2 +1,2 @@
-# 1-100daysofcode
+# 1-100DaysOfCode
 Learn codes for 100 days.
