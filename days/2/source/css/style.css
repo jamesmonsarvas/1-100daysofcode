@@ -1,0 +1,110 @@
+
+/* Defaults */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background: #ffffff;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+    	 -o-box-sizing: border-box;
+    		  box-sizing: border-box;
+}
+
+.container-fullwidth {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col {
+  padding: 0 15px;
+}
+
+.col-1 {
+  flex: 0 0 8.333333333333333%;
+  max-width: 8.333333333333333%;
+}
+
+.col-2 {
+  flex: 0 0 16.66666666666667%;
+  max-width: 16.66666666666667%;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 33.33333333333333%;
+  max-width: 33.33333333333333%;
+}
+
+.col-5 {
+  flex: 0 0 41.66666666666667%;
+  max-width: 41.66666666666667%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 58.3333333333333%;
+  max-width: 58.3333333333333%;
+}
+
+.col-8 {
+  flex: 0 0 66.66666666666667%;
+  max-width: 66.66666666666667%;
+}
+
+.col-9 {
+  flex: 0 0 75.00000000000002%;
+  max-width: 75.00000000000002%;
+}
+
+.col-10 {
+  flex: 0 0 83.33333333333333%;
+  max-width: 83.33333333333333%;
+}
+
+.col-11 {
+  flex: 0 0 91.66666666666666%;
+  max-width: 91.66666666666666%;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.box {
+  background: #e3e3e3;
+  padding: 10px 25%;
+  text-align: center;
+}

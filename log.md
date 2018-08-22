@@ -27,3 +27,20 @@
 [Main tag](https://www.w3schools.com/tags/tag_main.asp)
 [Understanding aside element](http://html5doctor.com/understanding-aside/)
 [Organizing files and folder structure for web page](https://thehelloworldprogram.com/web-development/creating-files-folder-structure-web-pages/)
+
+### Day 2: August 22, 2018 (Learn the basic of CSS, Grid system, and Flex)
+##### Learning how to write css, compute 12 columns grid and how to use flex and also how to use Classes and ID's
+
+**Today's Progress**: Today I learn some CSS basics and how to use Classes and ID's and how to compute 12 columns grid and how to use ```display: flex;``` to my grid system. This grid system that I created, I will use it to my Web page that I will create along the way. I also understand the purpose of normalize.css and I created the default css in my web page.
+
+**Thoughts:** I'm still struggling in flexbox there's slightly I don't understant but overall, I feel like I am getting better at it. I also understand what is the purpose of Classes and ID's in my HTML Elements. I will still research and understand the CSS well.
+
+**Link to work:**
+[Day 2 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/2/source/index.html),
+[Understanding HTML Classes and ID's](https://torquemag.io/2018/02/html-classes-and-ids/),
+[About normalize.css](http://nicolasgallagher.com/about-normalize-css/)
+[What is line-height and how to use it](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
+[What is box-sizing and how to use it](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
+[Complete Guid to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flex)
+[What is flex?](https://css-tricks.com/almanac/properties/f/flex/)
+[How to computer 12 column grid](https://math.stackexchange.com/questions/1102908/12-column-grid-how-to-calculate-for-columns5-7-8-9-10-11)
