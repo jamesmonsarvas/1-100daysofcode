@@ -1,0 +1,362 @@
+
+/* ****************
+*******************
+  Default CSS
+*/
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background: #ffffff;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  color: #a3a3a3;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color .3s ease, background .3s ease, border .3s ease;
+  -webkit-transition: color .3s ease, background .3s ease, border .3s ease;
+  -moz-transition: color .3s ease, background .3s ease, border .3s ease;
+  -ms-transition: color .3s ease, background .3s ease, border .3s ease;
+  -o-transition: color .3s ease, background .3s ease, border .3s ease;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+    	 -o-box-sizing: border-box;
+    		  box-sizing: border-box;
+}
+
+/* ****************
+*******************
+  Roboto Font
+*/
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-black-webfont.eot');
+    src: url('../fonts/roboto-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-black-webfont.woff') format('woff'),
+         url('../fonts/roboto-black-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-black-webfont.svg#robotoblack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-bold-webfont.eot');
+    src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff'),
+         url('../fonts/roboto-bold-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff'),
+         url('../fonts/roboto-light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-medium-webfont.eot');
+    src: url('../fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-medium-webfont.woff') format('woff'),
+         url('../fonts/roboto-medium-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-thin-webfont.eot');
+    src: url('../fonts/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-thin-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-thin-webfont.woff') format('woff'),
+         url('../fonts/roboto-thin-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-thin-webfont.svg#robotothin') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+.container-fullwidth {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding: 0 15px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.col-1 {
+  flex: 0 0 8.333333333333333%;
+  max-width: 8.333333333333333%;
+}
+
+.col-2 {
+  flex: 0 0 16.66666666666667%;
+  max-width: 16.66666666666667%;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 33.33333333333333%;
+  max-width: 33.33333333333333%;
+}
+
+.col-5 {
+  flex: 0 0 41.66666666666667%;
+  max-width: 41.66666666666667%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 58.3333333333333%;
+  max-width: 58.3333333333333%;
+}
+
+.col-8 {
+  flex: 0 0 66.66666666666667%;
+  max-width: 66.66666666666667%;
+}
+
+.col-9 {
+  flex: 0 0 75.00000000000002%;
+  max-width: 75.00000000000002%;
+}
+
+.col-10 {
+  flex: 0 0 83.33333333333333%;
+  max-width: 83.33333333333333%;
+}
+
+.col-11 {
+  flex: 0 0 91.66666666666666%;
+  max-width: 91.66666666666666%;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+/* ****************
+*******************
+  Main Menu
+*/
+
+#main-nav {
+  margin: 0 auto;
+}
+
+#main-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+#main-nav ul li {
+  display: block;
+  list-style: none;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+#main-nav li a {
+  display: block;
+  padding: 18px 24px;
+  background-color: #31393d;
+  border-bottom: 1px solid #293034;
+}
+
+#main-nav li a:hover,
+#main-nav li a:active,
+#main-nav li a:focus,
+#main-nav li.active a {
+  background-color: #1faaa9;
+  border-bottom: 1px solid #169291;
+}
+
+/* ****************
+*******************
+  Social Media
+*/
+
+#social-nav {
+  margin: 25px 24px 25px 0;
+  overflow: hidden;
+}
+
+#social-nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+#social-nav ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#social-nav ul li:last-child {
+  margin-right: 0;
+}
+
+#social-nav li a {
+  display: block;
+  padding: 0 12px;
+  text-indent: -9999px;
+}
+
+#social-nav li a.facebook {
+  background: url("../img/facebook-icon.png") no-repeat top center;
+}
+
+#social-nav li a.twitter {
+  background: url("../img/twitter-icon.png") no-repeat top center;
+}
+
+#social-nav li a.gplus {
+  background: url("../img/gplus-icon.png") no-repeat top center;
+}
+
+/* ****************
+*******************
+  Author's CSS
+*/
+
+.container-inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+#sidebar {
+  z-index: 9999;
+  position: fixed;
+  width: 15.8%;
+  height: 100%;
+  background-color: #242b2e;
+
+  -webkit-box-shadow: 10px 0 20px 3px rgba(0,0,0,.6);
+          box-shadow: 10px 0 20px 3px rgba(0,0,0,.6);
+}
+
+#sidebar #header #branding {
+  background: #ffffff;
+  padding: 29px 90px;
+}
+
+#content {
+  width: 84.2%;
+  margin-left: 15.8%;
+}
+
+#content .ft-portfolio {
+  position: relative;
+  margin-bottom: -6px;
+}
+
+#content .ft-portfolio:hover .overlay,
+#content .ft-portfolio:active .overlay,
+#content .ft-portfolio:focus .overlay {
+  display: block;
+}
+
+#content .overlay {
+  position: absolute;
+  top: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(26, 181, 179, 0.9);
+  text-align: center;
+}
+
+#content .overlay a {
+  display: block;
+  padding: 19% 0;
+}
+
+#content .overlay a > h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+#content .overlay a > small {
+  padding-bottom: 15px;
+  border-bottom: 2px solid #fff;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+#content .overlay a > img {
+  display: block;
+  width: auto;
+  margin: 30px auto 0;
+}
+
+#footer .copyright {
+  margin: 0 24px;
+  color: #6b7072;
+  font-size: 12px;
+  text-align: right;
+}

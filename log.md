@@ -44,3 +44,17 @@
 [Complete Guid to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flex)
 [What is flex?](https://css-tricks.com/almanac/properties/f/flex/)
 [How to computer 12 column grid](https://math.stackexchange.com/questions/1102908/12-column-grid-how-to-calculate-for-columns5-7-8-9-10-11)
+
+### Day 3: August 23, 2018 (Converting PSD to HTML/CSS and Create my first Web Page)
+##### Converting PSD to HTML/CSS and how to use Font-face and other CSS syntax
+
+**Today's Progress**: Today I learn how to convert PSD to HTML/CSS and created my first web page that I will use next day. I also learn how to use font-face and how to generate to font-face generators. I learn some CSS basic and used it to my web page.
+
+**Thoughts:** I think my HTML/CSS is not quite clean yet, but I think i'm doing great.
+
+**Link to work:**
+[Day 3 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/3/source),
+[Day 3 Output](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/3/output/day3-output.png),
+[Font Face Rule](https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp),
+[Font Face Generator](https://www.fontsquirrel.com/tools/webfont-generator),
+[CSS3 Generator](http://css3generator.com/)
