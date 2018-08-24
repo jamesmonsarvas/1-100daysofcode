@@ -58,3 +58,19 @@
 [Font Face Rule](https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp),
 [Font Face Generator](https://www.fontsquirrel.com/tools/webfont-generator),
 [CSS3 Generator](http://css3generator.com/)
+
+### Day 3: August 24, 2018 (Understanding media queries and best practices)
+##### How to use media queries and what should I use for breakpoints. PX, EM, or REM?
+
+**Today's Progress**: Today I learn how to use media queries and what is best practice for using it.
+
+**Thoughts:** Over the past few years I always start responsive in desktop to mobile but when I read these article and read the code of bootstrap.css I learn that the best way to start responsive is in mobile first to desktop. I hope I can get use to this.
+
+**Link to work:**
+[Day 4 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/4/source),
+[Media queries for standard devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/),
+[Media queries and mobile CSS best practices](https://www.solodev.com/blog/web-design/media-queries-and-mobile-css-best-practices.stml),
+[7 Habits of highly effective media queries](http://bradfrost.com/blog/post/7-habits-of-highly-effective-media-queries/),
+[PX, EM or REM Media Queries?](https://zellwk.com/blog/media-query-units/),
+[REM vs EM - The Great Debate](https://zellwk.com/blog/rem-vs-em/),
+[Don't use em for media queries](https://adamwathan.me/dont-use-em-for-media-queries/)

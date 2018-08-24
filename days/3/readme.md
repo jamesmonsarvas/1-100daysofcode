@@ -1,5 +1,5 @@
-### Day 3: August 23, 2018 (Converting PSD to HTML/CSS and Create my first Web Page)
-##### Converting PSD to HTML/CSS and how to use Font-face and other CSS syntax
+# Day 3: August 23, 2018 (Converting PSD to HTML/CSS and Create my first Web Page)
+### Converting PSD to HTML/CSS and how to use Font-face and other CSS syntax
 
 **Today's Progress**: Today I learn how to convert PSD to HTML/CSS and created my first web page that I will use next day. I also learn how to use font-face and how to generate to font-face generators. I learn some CSS basic and used it to my web page.
 

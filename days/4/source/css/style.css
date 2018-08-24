@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+.pixel,
+.em,
+.rem {
+  height: 400px;
+}
+
+.pixel {
+  background: red;
+}
+
+.em {
+  background: green;
+}
+
+.rem {
+  background: blue;
+}
+
+@media all and (min-width: 400px) {
+  .pixel {
+    opacity: 0.5
+  }
+}
+
+@media all and (min-width: 25rem) {
+  .em {
+    opacity: 0.5
+  }
+}
+
+@media all and (min-width: 25em) {
+  .rem {
+    opacity: 0.5
+  }
+}
