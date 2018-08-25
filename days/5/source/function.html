@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>100 Days of Code</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <h1>JavaScript Functions</h1>
+
+  <h3>Display date using myDate() function</h3>
+  <p id="demo1"></p>
+  <button onclick="myDate()">Try it</button>
+
+  <h3>Convert the text to UPPERCASE</h3>
+  <p id="demo2">this is lowercase</p>
+  <button onclick="toUppercase()">Try it</button>
+
+  <h3>Convert the text to lowercase</h3>
+  <p id="demo3">THIS IS UPPERCASE</p>
+  <button onclick="toLowercase()">Try it</button>
+
+  <h3>Addition using addition(num1, num2) function</h3>
+  <p id="demo4">5 + 5?</p>
+  <button onclick="document.getElementById('demo4').innerHTML = addition(5, 5)">Try it</button>
+
+  <h3>Subtraction using subtraction(num1, num2) function</h3>
+  <p id="demo5">5 - 5?</p>
+  <button onclick="document.getElementById('demo5').innerHTML = subtraction(5, 5)">Try it</button>
+  
+  <h3>Multiplication using multiplication(num1, num2) function</h3>
+  <p id="demo6">5 * 5?</p>
+  <button onclick="document.getElementById('demo6').innerHTML = multiplication(5, 5)">Try it</button>
+
+  <h3>Division using division(num1, num2) function</h3>
+  <p id="demo7">5 / 5?</p>
+  <button onclick="document.getElementById('demo7').innerHTML = division(5, 5)">Try it</button>
+
+  <h3>Modulo using modulo(num1, num2) function</h3>
+  <p id="demo8">5 % 5?</p>
+  <button onclick="document.getElementById('demo8').innerHTML = modulo(5, 5)">Try it</button>
+
+  <script>
+  
+    function myDate() {
+      var displayDate = document.getElementById("demo1");
+      displayDate.innerHTML = Date();
+    }
+
+    function toUppercase() {
+      var text = document.getElementById("demo2").innerHTML;
+      document.getElementById("demo2").innerHTML = text.toUpperCase();
+    }
+
+    function toLowercase() {
+      var text = document.getElementById("demo3").innerHTML;
+      document.getElementById("demo3").innerHTML = text.toLowerCase();
+    }
+
+    function addition(num1, num2) {
+      return num1 + num2;
+    }
+
+    function subtraction(num1, num2) {
+      return num1 - num2;
+    }
+
+    function multiplication(num1, num2) {
+      return num1 * num2;
+    }
+
+    function division(num1, num2) {
+      return num1 / num2;
+    }
+
+    function modulo(num1, num2) {
+      return num1 % num2;
+    }
+
+  </script>
+
+</body>
+</html>

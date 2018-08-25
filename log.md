@@ -59,7 +59,7 @@
 [Font Face Generator](https://www.fontsquirrel.com/tools/webfont-generator),
 [CSS3 Generator](http://css3generator.com/)
 
-### Day 3: August 24, 2018 (Understanding media queries and best practices)
+### Day 4: August 24, 2018 (Understanding media queries and best practices)
 ##### How to use media queries and what should I use for breakpoints. PX, EM, or REM?
 
 **Today's Progress**: Today I learn how to use media queries and what is best practice for using it.
@@ -74,3 +74,18 @@
 [PX, EM or REM Media Queries?](https://zellwk.com/blog/media-query-units/),
 [REM vs EM - The Great Debate](https://zellwk.com/blog/rem-vs-em/),
 [Don't use em for media queries](https://adamwathan.me/dont-use-em-for-media-queries/)
+
+### Day 5: August 25, 2018 (Learn the basic of JavaScript)
+##### Learning and understanding the basic of JavaScript
+
+**Today's Progress**: Today I learn how to use JavaScript Function and what is the differences of JavaScript outputs and also how to declare variables, what is operator, arithmetic, data type and assignment.
+
+**Thoughts:** There's a huge difference in JavaScript outputs. console.log is used for debugging, document.write is used for testing, innerHTML is used for displaying the value with HTML tag, innerText is used for displaying the text or value only so if you put some HTML tag it will display as well, and window.alert() or alert() is used for displaying alert box with specific message. Function is a great way to use if you have something you need to display, add, substract, to convert text to uppercase or lowercase, etc because you can always use it to your web pages. I also understand all the assignments operators and arithmetic operators.
+
+**Link to work:**
+[Day 5 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/5/source),
+[JavaScript Operator](https://www.w3schools.com/js/js_operators.asp),
+[Arithmetic Operator](https://www.w3schools.com/js/js_arithmetic.asp),
+[Assignment Operator](https://www.w3schools.com/js/js_assignment.asp),
+[JavaScript Function](https://www.w3schools.com/js/js_functions.asp),
+[JavaScript Tutorial](https://www.w3schools.com/js/default.asp)
