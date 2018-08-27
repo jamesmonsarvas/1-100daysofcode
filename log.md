@@ -89,3 +89,13 @@
 [Assignment Operator](https://www.w3schools.com/js/js_assignment.asp),
 [JavaScript Function](https://www.w3schools.com/js/js_functions.asp),
 [JavaScript Tutorial](https://www.w3schools.com/js/default.asp)
+
+### Day 6: August 26, 2018 (Practicing JavaScript)
+##### Practicing what I learn in this week
+
+**Today's Progress**: Today I practice what I learn this week. I'm using function and if, else statement and I also used variables in my code. It's my first time using if, else statement in my JavaScript.
+
+**Thoughts:** I'm struggling little bit using if, else statement in my code because it's my first time using it and I don't know if i'm using it right.
+
+**Link to work:**
+[Day 5 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/6/source)
