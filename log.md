@@ -99,3 +99,17 @@
 
 **Link to work:**
 [Day 5 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/6/source)
+
+### Day 7: August 27, 2018 (Learn the JavaScript Basic)
+##### Learning Objects, Events, and String Methods
+
+**Today's Progress**: Today I learn how to use Objects, Events and String method but i'm still struggling in string method.
+
+**Thoughts:** String method is a complex syntax it has so many method so i'm struggling in this but I understand most of them and some is not clear on my mind, so I need to study more and research more about this method and I wish I can use this to my future projects.
+
+**Link to work:**
+[Day 7 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/7/source),
+[Objects](https://www.w3schools.com/js/js_objects.asp),
+[Events](https://www.w3schools.com/js/js_events.asp),
+[String](https://www.w3schools.com/js/js_strings.asp),
+[String Methods](https://www.w3schools.com/js/js_string_methods.asp)
