@@ -113,3 +113,18 @@
 [Events](https://www.w3schools.com/js/js_events.asp),
 [String](https://www.w3schools.com/js/js_strings.asp),
 [String Methods](https://www.w3schools.com/js/js_string_methods.asp)
+
+### Day 8: August 28, 2018 (Learn the JavaScript Basic)
+##### Learning String Methods, Number Methods and Array Methods/Sort
+
+**Today's Progress**: Today I learn how to use Array method, it's so complicated but still I understand almost all method and I wish I could use it to my future projects.
+
+**Thoughts:** Array is so complicated to me and I'm struggling getting the values, but in the end I understant array and the other method.
+
+**Link to work:**
+[Day 8 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/8/source),
+[String Method](https://www.w3schools.com/js/js_string_methods.asp),
+[Number Methods](https://www.w3schools.com/js/js_number_methods.asp),
+[Array](https://www.w3schools.com/js/js_arrays.asp),
+[Array Method](https://www.w3schools.com/js/js_array_methods.asp),
+[Array Sort](https://www.w3schools.com/js/js_array_sort.asp)
