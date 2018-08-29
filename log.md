@@ -128,3 +128,13 @@
 [Array](https://www.w3schools.com/js/js_arrays.asp),
 [Array Method](https://www.w3schools.com/js/js_array_methods.asp),
 [Array Sort](https://www.w3schools.com/js/js_array_sort.asp)
+
+### Day 9: August 29, 2018 (Learn the JavaScript Basic)
+##### Learning Date methods and Maths
+
+**Today's Progress**: I learn today how to get the year, month, day, time, etc. I also learn some of the Math methods.
+
+**Thoughts:** Some math method is so hard to understan, i'm weak at mathematics but some of them is easy to understand. So I need still to learn about math and I know this Math syntax is a powerful method to use in JavaScript so I think it will take some time to learn more about this and I need to research more and put some exercises to know what I learn.
+
+**Link to work:**
+[Day 9 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/9/source)
