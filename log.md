@@ -138,3 +138,13 @@
 
 **Link to work:**
 [Day 9 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/9/source)
+
+### Day 10: September 2, 2018 (Learning problem solving and increase logic thinking)
+##### Practice my logic thinking and solve some problem
+
+**Today's Progress**: I'm learning how to solve a coding problem but i'm not that good enough to solve some, but I will not give up until I solve the problem and I will give the solution.
+
+**Thoughts:** It's so hard to think and to solve some problems because my logic thinking is not that good to solve some problems but I will still research how to increase my logic so I can solved some major problems in coding.
+
+**Link to work:**
+[Daily Coding Problems](https://www.dailycodingproblem.com/)
