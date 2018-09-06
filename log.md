@@ -148,3 +148,13 @@
 
 **Link to work:**
 [Daily Coding Problems](https://www.dailycodingproblem.com/)
+
+### Day 11: September 6, 2018 (Array, Object and Loop)
+##### How to combine array and object with input
+
+**Today's Progress**: I learn today how to combine array and object using input and button, and I use loop to output the value of array and object.
+
+**Thoughts:** At first, i'm struggling how to input some value to array using ```<input>``` tag. When I manage to input some data in my array, i'm surprise because it's only 1 line of code. It use only ```push()``` function so another idea comes up, that why I want to input some object into my array. And that's what I learn today.
+
+**Link to work:**
+[Day 11 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/11/source)
