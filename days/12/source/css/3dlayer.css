@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  overflow: hidden;
+}
+
+.box {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  background: rgba(255, 255, 255, .1);
+  transform: rotate(-30deg) skew(25deg) scale(.8);
+  -webkit-transform: rotate(-30deg) skew(25deg) scale(.8);
+  -moz-transform: rotate(-30deg) skew(25deg) scale(.8);
+  -ms-transform: rotate(-30deg) skew(25deg) scale(.8);
+  -o-transform: rotate(-30deg) skew(25deg) scale(.8);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.box .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #fff;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.box:hover .layer:nth-child(4) {
+  transform: translate(160px, -160px);
+  -webkit-transform: translate(160px, -160px);
+  -moz-transform: translate(160px, -160px);
+  -ms-transform: translate(160px, -160px);
+  -o-transform: translate(160px, -160px);
+  opacity: 1;
+}
+
+.box:hover .layer:nth-child(3) {
+  transform: translate(120px, -120px);
+  -webkit-transform: translate(120px, -120px);
+  -moz-transform: translate(120px, -120px);
+  -ms-transform: translate(120px, -120px);
+  -o-transform: translate(120px, -120px);
+  opacity: .8;
+}
+
+.box:hover .layer:nth-child(2) {
+  transform: translate(80px, -80px);
+  -webkit-transform: translate(80px, -80px);
+  -moz-transform: translate(80px, -80px);
+  -ms-transform: translate(80px, -80px);
+  -o-transform: translate(80px, -80px);
+  opacity: .6;
+}
+
+.box:hover .layer:nth-child(1) {
+  transform: translate(40px, -40px);
+  -webkit-transform: translate(40px, -40px);
+  -moz-transform: translate(40px, -40px);
+  -ms-transform: translate(40px, -40px);
+  -o-transform: translate(40px, -40px);
+  opacity: .4;
+}

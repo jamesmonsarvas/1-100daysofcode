@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url('../img/bg.jpg') no-repeat top center;
+  background-size: cover;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 400px;
+  padding: 40px;
+  background: rgba(0, 0, 0, .1);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+
+
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.container h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container form .inputBox {
+  position: relative;
+}
+
+.container form .inputBox input {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 10px 0;
+  background: transparent;  
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+}
+
+.container form .inputBox label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+
+.container form .inputBox input:focus ~ label,
+.container form .inputBox input:valid ~ label {
+  top: -18px;
+  left: 0;
+  color: #03a9f4;
+  font-size: 12px;
+}
+
+.container form input[type="submit"] {
+  padding: 10px 20px;
+  background: #03a9f4;
+  border: 1px solid #03a9f4;
+  color: #fff;
+  cursor: pointer;
+}

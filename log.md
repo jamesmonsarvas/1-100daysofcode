@@ -158,3 +158,16 @@
 
 **Link to work:**
 [Day 11 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/11/source)
+
+### Day 12: September 21, 2018 (Learning Advanced CSS)
+##### Learn how to use transform, transition and some animations using CSS only
+
+**Today's Progress**: Today I study some pure CSS animation and I created some animation using transform and transition.
+
+**Thoughts:** I'm still struggling using ```@keyframes``` so I didn't upload it yet, I learn today using transform and I understand some method like rotate, skew, translate etc. I hope in the future I can build my own animation using CSS only, add some jQuery or JavaScript if necessary.
+
+**Link to work:**
+[Day 12 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/12/source),
+[CSS Transform](https://www.w3schools.com/cssref/css3_pr_transform.asp),
+[CSS 3D Transform](https://www.w3schools.com/css/css3_3dtransforms.asp),
+[Online CSS Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
