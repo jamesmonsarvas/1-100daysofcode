@@ -1,0 +1,780 @@
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+* What follows is the result of much research on cross-browser styling.
+* Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+* Kroc Camen, and the H5BP dev community and team.
+*/
+
+/* ==========================================================================
+Base styles: opinionated defaults
+========================================================================== */
+
+/* Defaults */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #fff;
+  color: #222;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  width: 100%;
+  max-width: 1088px;
+  margin: 0 auto;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Dancing Script Font */
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('../fonts/dancingscript-bold-webfont.eot');
+  src: url('../fonts/dancingscript-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/dancingscript-bold-webfont.woff2') format('woff2'),
+    url('../fonts/dancingscript-bold-webfont.woff') format('woff'),
+    url('../fonts/dancingscript-bold-webfont.ttf') format('truetype'),
+    url('../fonts/dancingscript-bold-webfont.svg#dancing_scriptbold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('../fonts/dancingscript-regular-webfont.eot');
+  src: url('../fonts/dancingscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/dancingscript-regular-webfont.woff2') format('woff2'),
+    url('../fonts/dancingscript-regular-webfont.woff') format('woff'),
+    url('../fonts/dancingscript-regular-webfont.ttf') format('truetype'),
+    url('../fonts/dancingscript-regular-webfont.svg#dancing_scriptregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Open Sans Font */
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/opensans-bold-webfont.eot');
+  src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-bold-webfont.woff') format('woff'),
+    url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/opensans-extrabold-webfont.eot');
+  src: url('../fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-extrabold-webfont.woff') format('woff'),
+    url('../fonts/opensans-extrabold-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/opensans-light-webfont.eot');
+  src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-light-webfont.woff') format('woff'),
+    url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/opensans-regular-webfont.eot');
+  src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-regular-webfont.woff') format('woff'),
+    url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/opensans-semibold-webfont.eot');
+  src: url('../fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-semibold-webfont.woff') format('woff'),
+    url('../fonts/opensans-semibold-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+  transition: color .3s ease, background .3s ease;
+  -webkit-transition: color .3s ease, background .3s ease;
+  -moz-transition: color .3s ease, background .3s ease;
+  -ms-transition: color .3s ease, background .3s ease;
+  -o-transition: color .3s ease, background .3s ease;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #7f5edc;
+  text-decoration: none;
+}
+
+/* * Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Dancing Script', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+/*
+* Remove text-shadow in selection highlight:
+* https://twitter.com/miketaylr/status/12228805301
+*
+* Vendor-prefixed and regular ::selection selectors cannot be combined:
+* https://stackoverflow.com/a/16982510/7133471
+*
+* Customize the background color to match your design.
+*/
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+* A better looking default horizontal rule
+*/
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+* Remove the gap between audio, canvas, iframes,
+* images, videos and the bottom of their containers:
+* https://github.com/h5bp/html5-boilerplate/issues/440
+*/
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+/*
+* Remove default fieldset styles.
+*/
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+* Allow only vertical resizing of textareas.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+Browser Upgrade Prompt
+========================================================================== */
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+Menu Primary
+========================================================================== */
+
+/** NOTE: This style is below 390px only */
+
+#menu-primary {
+  margin-top: 15px;
+  text-align: left;
+}
+
+#menu-primary .menu-toggle {
+  display: block;
+  padding: 5px 10px;
+  background-color: #7f5edc;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#menu-primary .menu-toggle>.fa-bars {
+  float: right;
+  font-size: 24px;
+}
+
+#menu-primary ul {
+  display: none;
+  margin: 0;
+  padding: 10px 10px;
+  background: #9e86e2;
+}
+
+#menu-primary ul li {
+  list-style: none;
+}
+
+#menu-primary li a {
+  display: block;
+  padding: 5px 5px;
+  color: #fff;
+}
+
+#menu-primary li a:hover,
+#menu-primary li a:focus,
+#menu-primary li a:active {
+  background: #7f5edc;
+}
+
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+
+/** NOTE: This style is below 390px only */
+
+/** Defaults */
+
+.default-btn {
+  background: #7f5edc;
+  padding: 10px 25px;
+  color: #fff;
+  display: inline-block;
+}
+
+.default-btn:hover,
+.default-btn:focus,
+.default-btn:active {
+  background: #9e86e2;
+  color: #fff;
+}
+
+/** Header */
+
+#header {
+  padding: 35px 0;
+}
+
+#header #branding {
+  text-align: center;
+}
+
+/** Banner */
+
+#banner {
+  padding: 10.8% 0;
+  background: url('../img/banner.jpg') no-repeat top center;
+  background-size: cover;
+}
+
+#banner #banner-intro {
+  padding: 25px 25px;
+  border: 5px solid #fff;
+  color: #fff;
+  text-align: center;
+}
+
+#banner #banner-intro .entry-title {
+  margin-top: 0;
+}
+
+#banner #banner-intro .banner-desc {
+  font-style: italic;
+}
+
+/** Content */
+
+#content {
+  margin: 105px 0 130px 0;
+}
+
+#content #satisfying-people {
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+#content #satisfying-people p {
+  font-style: italic;
+}
+
+#content #satisfying-people h2 {
+  margin-bottom: 50px;
+}
+
+#content #satisfying-people h2>span {
+  display: block;
+  margin-top: 20px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+#content .service {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  color: #fff;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  -webkit-transform: perspective(1px) translateZ(0);
+  -moz-transform: perspective(1px) translateZ(0);
+  -ms-transform: perspective(1px) translateZ(0);
+  -o-transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+#content .service:before {
+  content: '';
+  position: absolute;
+  border: white solid 1px;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+#content .service:hover:before,
+#content .service:focus:before,
+#content .service:active:before {
+  opacity: 1;
+}
+
+#content .service h3 {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  font-family: 'Dancing Script';
+  font-size: 40px;
+  text-align: center;
+}
+
+#content .service h3>span {
+  display: block;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#content .service img {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+}
+
+#content .service:hover>img {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+
+#content-banner {
+  background: url('../img/footer-banner.jpg') no-repeat top center;
+  background-size: cover;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+}
+
+#content-banner h2 {
+  margin-bottom: 50px;
+}
+
+#content-banner p {
+  font-style: italic;
+}
+
+/** Footer */
+
+#footer {
+  margin: 65px 0;
+  text-align: center;
+}
+
+#footer #social-media {
+  margin-bottom: 45px;
+}
+
+#footer #social-media ul {
+  margin: 0;
+  padding: 0;
+}
+
+#footer #social-media ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 5px;
+}
+
+#footer #social-media ul li:last-child {
+  margin-right: 0;
+}
+
+#footer #social-media li a {
+  display: block;
+  background: #375be9;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+}
+
+#footer #social-media li a.facebook {
+  padding: 5px 15px;
+}
+
+#footer #social-media li a.twitter,
+#footer #social-media li a.google {
+  padding: 5px 12px;
+}
+
+#footer #social-media li a.instagram {
+  padding: 5px 13px;
+}
+
+/* ==========================================================================
+Helper classes
+========================================================================== */
+
+/*
+* Hide visually and from screen readers
+*/
+
+.hidden {
+  display: none !important;
+}
+
+/*
+* Hide only visually, but have it available for screen readers:
+* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*
+* 1. For long content, line feeds are not interpreted as spaces and small width
+*    causes content to wrap 1 word per line:
+*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*/
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+  /* 1 */
+}
+
+/*
+* Extends the .visuallyhidden class to allow the element
+* to be focusable when navigated to via the keyboard:
+* https://www.drupal.org/node/897638
+*/
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  white-space: inherit;
+}
+
+/*
+* Hide visually and from screen readers, but maintain layout
+*/
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* ==========================================================================
+EXAMPLE Media Queries for Responsive Design.
+These examples override the primary ('mobile first') styles.
+Modify as content requires.
+========================================================================== */
+
+@media only screen and (min-width: 768px) {
+
+  #header #branding {
+    text-align: left;
+  }
+
+  #menu-primary {
+    margin-top: 0;
+  }
+
+  #menu-primary .menu-toggle {
+    display: none;
+  }
+
+  #menu-primary ul {
+    display: block;
+    background: transparent;
+    padding: 0;
+    text-align: right;
+  }
+
+  #menu-primary ul li {
+    display: inline-block;
+  }
+
+  #menu-primary li a {
+    color: #222;
+    text-transform: uppercase;
+  }
+
+  #menu-primary li a:hover,
+  #menu-primary li a:focus,
+  #menu-primary li a:active {
+    background: transparent;
+    color: #7f5edc;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+  #banner #banner-intro {
+    width: 815px;
+    margin: 0 auto;
+  }
+
+  #banner #banner-intro .banner-desc,
+  #content #satisfying-people p,
+  #content-banner p {
+    padding: 0 15%;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  #banner {
+    height: 800px;
+    padding: 17.4% 0;
+  }
+
+  #banner #banner-intro {
+    padding: 95px 0;
+  }
+
+  #banner #banner-intro .entry-title {
+    font-size: 44px;
+  }
+
+  #content-banner {
+    padding: 165px;
+  }
+
+  #content #satisfying-people p,
+  #content-banner p {
+    padding: 0 20%;
+  }
+
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+Print styles.
+Inlined to avoid the additional HTTP request:
+https://www.phpied.com/delay-loading-your-print-css/
+========================================================================== */
+
+@media print {
+
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " ("attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " ("attr(title) ")";
+  }
+
+  /*
+  * Don't show links that are fragment identifiers,
+  * or use the `javascript:` pseudo protocol
+  */
+
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+  * Printing Tables:
+  * http://css-discuss.incutio.com/wiki/Printing_Tables
+  */
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}

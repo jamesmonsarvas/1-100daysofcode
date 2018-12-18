@@ -75,8 +75,8 @@ body {
   -o-transition: .5s;
 }
 
-.container form .inputBox input:focus ~ label,
-.container form .inputBox input:valid ~ label {
+.container form .inputBox input:focus label,
+.container form .inputBox input:valid label {
   top: -18px;
   left: 0;
   color: #03a9f4;
