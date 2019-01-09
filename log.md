@@ -180,5 +180,18 @@
 **Thoughts:** In first i'm struggling because for a very long time i'm a Desktop First before mobile so I didn't know what's the difference between ```min-width``` and ```max-width``` but now I think I understand the difference between the two.
 
 **Link to work:**
-[Day 13 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/13/source/galactus)
+[Day 13 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/13/source/galactus),
 [Day 13 Images](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/13/source/images)
+
+# Day 14: January 9, 2019 (Learning Basic of SASS)
+### Learn to create landing page using SASS
+
+**Today's Progress**: I learn how SASS works but only the basics maybe I need to research more to gain more knowledge about SASS.
+
+**Thoughts:** I think it will take time to learn more about SASS it's very confusing if you don't pay attention and you must have a better knowledge of CSS.
+
+**Link to work:**
+[Day 14 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/13/source/sass),
+[Day 13 Images](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/13/source/images),
+[SASS Free Tutorial](https://www.youtube.com/watch?v=roywYSEPSvc&t=297s),
+[Background Clip Path](https://bennettfeely.com/clippy/)
