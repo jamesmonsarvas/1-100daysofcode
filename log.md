@@ -195,3 +195,15 @@
 [Day 13 Images](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/13/source/images),
 [SASS Free Tutorial](https://www.youtube.com/watch?v=roywYSEPSvc&t=297s),
 [Background Clip Path](https://bennettfeely.com/clippy/)
+
+# Day 15: January 10, 2019 (Learning SASS using NPM)
+### Learn to SASS using NPM (node-sass and live server)
+
+**Today's Progress**: I learn today how to use npm and how to initialization and install some packages to work with SASS. I also learn how package.json scripts work. 
+
+**Thoughts:** NPM is so useful it's easy to install some packages to use in your projects. I'm gonna use this in my future projects.
+
+**Link to work:**
+[Day 15 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/13/source/),
+[Write and Compile SASS Locally](https://www.youtube.com/watch?v=00tMqmTe0PU&index=26&list=PLJFQaBvGIKsIvYocA2S19_9ypV8pK1aXI),
+[Automatically Reload a Page using Live Server](https://www.youtube.com/watch?v=bbY1bh9bONk&index=27&list=PLJFQaBvGIKsIvYocA2S19_9ypV8pK1aXI)

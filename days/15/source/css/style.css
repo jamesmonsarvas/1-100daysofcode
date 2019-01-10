@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body,
+html {
+  height: 100%; }
+
+body {
+  margin: 0;
+  font-family: 'Montserrat'; }
+  body #bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: #005DFF;
+    clip-path: polygon(100% 0, 100% 84%, 31% 100%, 0 100%, 0 0); }
+    @media (min-width: 840px) {
+      body #bg {
+        clip-path: polygon(0 0, 80% 0%, 58% 100%, 0% 100%); } }
+  body header a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+@media (min-width: 840px) {
+  main {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "primary card"; } }
+
+main section#card {
+  width: 80%;
+  margin: 1em auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); }
+  @media (min-width: 840px) {
+    main section#card {
+      grid-area: card;
+      height: fit-content;
+      align-self: center;
+      margin: 1em; } }
+
+main ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  main ul li {
+    margin-block-end: 10px; }
+    main ul li span {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background-color: #ccdfff;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      margin-right: 10px; }
+    main ul li strong {
+      display: inline-block;
+      margin-left: 40px;
+      margin-top: 10px; }
+
+main section#primary {
+  padding: 15px;
+  color: #fff;
+  text-align: center; }
+  @media (min-width: 840px) {
+    main section#primary {
+      grid-area: primary;
+      text-align: left;
+      margin: 4em 0 0 4em; } }
+  main section#primary h1 {
+    font-size: 3em;
+    margin-top: 10px;
+    text-transform: uppercase; }
+    @media (min-width: 840px) {
+      main section#primary h1 {
+        width: 30%;
+        font-size: 4em;
+        line-height: .9em; } }
+  main section#primary p {
+    font-size: 1.4em; }
+  main section#primary a {
+    color: #001333;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FFF6BB;
+    display: block;
+    text-align: center;
+    margin: 50px auto 0 auto;
+    padding: 15px; }
+    @media (min-width: 840px) {
+      main section#primary a {
+        display: inline-block;
+        padding: 15px 60px; } }
+
+* {
+  box-sizing: border-box; }
