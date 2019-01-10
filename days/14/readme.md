@@ -5,4 +5,4 @@
 
 **Link to work:**
 [Day 14 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/14/source/sass)
-[Day 13 Images](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/14/source/images)
+[Day 14 Images](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/14/source/images)
