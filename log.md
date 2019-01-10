@@ -191,8 +191,8 @@
 **Thoughts:** I think it will take time to learn more about SASS it's very confusing if you don't pay attention and you must have a better knowledge of CSS.
 
 **Link to work:**
-[Day 14 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/13/source/sass),
-[Day 13 Images](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/13/source/images),
+[Day 14 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/14/source/sass),
+[Day 13 Images](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/14/source/images),
 [SASS Free Tutorial](https://www.youtube.com/watch?v=roywYSEPSvc&t=297s),
 [Background Clip Path](https://bennettfeely.com/clippy/)
 
@@ -204,6 +204,6 @@
 **Thoughts:** NPM is so useful it's easy to install some packages to use in your projects. I'm gonna use this in my future projects.
 
 **Link to work:**
-[Day 15 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/13/source/),
+[Day 15 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/15/source/),
 [Write and Compile SASS Locally](https://www.youtube.com/watch?v=00tMqmTe0PU&index=26&list=PLJFQaBvGIKsIvYocA2S19_9ypV8pK1aXI),
 [Automatically Reload a Page using Live Server](https://www.youtube.com/watch?v=bbY1bh9bONk&index=27&list=PLJFQaBvGIKsIvYocA2S19_9ypV8pK1aXI)
