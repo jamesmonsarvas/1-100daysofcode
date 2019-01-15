@@ -196,8 +196,8 @@
 [SASS Free Tutorial](https://www.youtube.com/watch?v=roywYSEPSvc&t=297s),
 [Background Clip Path](https://bennettfeely.com/clippy/)
 
-# Day 15: January 10, 2019 (Learning SASS using NPM)
-### Learn to SASS using NPM (node-sass and live server)
+### Day 15: January 10, 2019 (Learning SASS using NPM)
+##### Learn to SASS using NPM (node-sass and live server)
 
 **Today's Progress**: I learn today how to use npm and how to initialization and install some packages to work with SASS. I also learn how package.json scripts work. 
 
@@ -207,3 +207,13 @@
 [Day 15 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/15/source/),
 [Write and Compile SASS Locally](https://www.youtube.com/watch?v=00tMqmTe0PU&index=26&list=PLJFQaBvGIKsIvYocA2S19_9ypV8pK1aXI),
 [Automatically Reload a Page using Live Server](https://www.youtube.com/watch?v=bbY1bh9bONk&index=27&list=PLJFQaBvGIKsIvYocA2S19_9ypV8pK1aXI)
+
+### Day 16: January 15, 2019 (Learning the Basic of Vue.js)
+##### Learn how to create project in vue.js
+
+**Today's Progress**: I learn how to use Vue.js basics today and i'm still struggling in the syntax but at least I know how vue.js works.
+
+**Thoughts:** I still use NPM rather than yarn because i'm more familliar with NPM. I also know that the Vue.js is used to Laravel so I think i'm gonna stay with vue.js because I love laravel and I used it before.
+
+**Link to work:**
+[Day 16 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/16/source/vueapp),
