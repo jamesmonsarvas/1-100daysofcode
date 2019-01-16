@@ -216,4 +216,15 @@
 **Thoughts:** I still use NPM rather than yarn because i'm more familliar with NPM. I also know that the Vue.js is used to Laravel so I think i'm gonna stay with vue.js because I love laravel and I used it before.
 
 **Link to work:**
-[Day 16 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/16/source/vueapp),
+[Day 16 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/16/source/vueapp)
+
+# Day 17: January 16, 2019 (Creating basic skill lists using Vue.js Forms)
+### Create a basic forms
+
+**Today's Progress**: I watch and learn how to create basic forms in Vue.js and how routings works and other syntax.
+
+**Thoughts:** I think I can now create my own web page in Vue.js so I will create it and upload it to github so you can also see my website.
+
+**Link to work:**
+[Day 17 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/17/source/vue-skills),
+[Vue.js Tutorial](https://www.youtube.com/watch?v=78tNYZUS-ps&t=3497s)
