@@ -218,8 +218,8 @@
 **Link to work:**
 [Day 16 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/16/source/vueapp)
 
-# Day 17: January 16, 2019 (Creating basic skill lists using Vue.js Forms)
-### Create a basic forms
+### Day 17: January 16, 2019 (Creating basic skill lists using Vue.js Forms)
+##### Create a basic forms
 
 **Today's Progress**: I watch and learn how to create basic forms in Vue.js and how routings works and other syntax.
 
@@ -228,3 +228,13 @@
 **Link to work:**
 [Day 17 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/17/source/vue-skills),
 [Vue.js Tutorial](https://www.youtube.com/watch?v=78tNYZUS-ps&t=3497s)
+
+### Day 18: January 31, 2019 (Learning JavaScript Objects and Arrays)
+##### Enhancing my basic fundamentals in Objects and Arrays
+
+**Today's Progress**: I'm enhancing my basic fundamentals in objects and array because of what I research Object-Oriented Programming is powerful that's why I want to learn more about it and also in Array.
+
+**Thoughts:** Object is powerful in JavaScript and in other Programming language. When I used Vue.js I got confused because my knowledge in Objects are not that good that's why I want to learn the Object-Oriented Programming and I also add the Array so I can used it to my future projects.
+
+**Link to work:**
+[Day 18 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/18/source/index.js)
