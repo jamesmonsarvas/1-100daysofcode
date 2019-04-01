@@ -238,3 +238,13 @@
 
 **Link to work:**
 [Day 18 Progress](https://github.com/jamesmonsarvas/1-100DaysOfCode/blob/master/days/18/source/index.js)
+
+### Day 19: April 1, 2019 (Learn the Basic of PHP)
+##### Study PHP
+
+**Today's Progress**: Today I study PHP ad learned something new even if I study PHP before. It's good to take a step back and study again because you will learned something new that you didn't know exists.
+
+**Thoughts:**: I struggle studying PDO because it's new to me, I always use mysqli object-oriented and it's so confusing how PDO works. But in the end I learned it.
+
+**Link to work:**
+[Login/Registration Form](https://github.com/jamesmonsarvas/100-Days-of-Code-PHP/exercises/exercise_1)
